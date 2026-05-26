@@ -1,0 +1,13 @@
+#!/bin/sh -e
+
+if [ "$1" = remove ] ; then
+
+  #make thunderbird default tde mail client
+  if [ -f '/etc/trinity/emaildefaults' ] ; then
+    echo "Unsetting Thunderbird default e-mail client ..."
+    ( /opt/trinity/bin/kwriteconfig --file '/etc/trinity/emaildefaults' --group 'Defaults' --key 'Profile' 'Default_profile' )  && true
+    ( /opt/trinity/bin/kwriteconfig --file '/etc/trinity/emaildefaults' --group 'PROFILE_Default_profile' --key 'EmailClient' '' )  && true
+    ( chmod a+r /etc/trinity/emaildefaults )  && true
+  fi
+
+fi
