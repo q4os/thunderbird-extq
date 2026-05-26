@@ -4,5 +4,6 @@ thunderbird-extq (1.1-a1) UNRELEASED; urgency=medium
   * Adopt build configuration to the newer devpack version
   * Move to debhelper build framework
   * Change package name to thunderbird-extq
+  * Move to debhelper-compat 13
 
- -- Q4OS Team <devteam@q4os.org>  Tue, 26 May 2026 22:40:48 +0200
+ -- Q4OS Team <devteam@q4os.org>  Tue, 26 May 2026 22:45:31 +0200
