@@ -1,4 +1,4 @@
-q4os-thunderbird (3.2-a1) UNRELEASED; urgency=medium
+thunderbird-extq (1.1-a1) UNRELEASED; urgency=medium
 
   * Initial commit
   * Adopt build configuration to the newer devpack version

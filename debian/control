@@ -1,4 +1,4 @@
-Source: q4os-thunderbird
+Source: thunderbird-extq
 Section: none
 Priority: optional
 Maintainer: Q4OS Team <devteam@q4os.org>
@@ -7,12 +7,12 @@ Standards-Version: 3.8.4
 
 #'desktop-file-utils' needed for 'open containing folder' and mime associations
 
-Package: q4os-thunderbird
+Package: thunderbird-extq
 Architecture: all
 Pre-Depends: thunderbird
 Depends:
 Recommends: desktop-file-utils, gtk2-engines
-Conflicts: thunderbird-q4
+Conflicts: q4os-thunderbird, thunderbird-q4
 Provides:
 Replaces:
 Breaks:

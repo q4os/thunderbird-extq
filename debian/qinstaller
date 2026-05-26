@@ -3,12 +3,12 @@
 # TEMPLATES_DIR_0="$TEMPLATESDIR0"
 TEMPLATES_DIR="qinstaller_templates"
 
-PK_NAME="q4os-thunderbird"
+PK_NAME="thunderbird-extq"
 APPNAME_DESC="Mozilla Thunderbird"
 
 #-.qsi entries
-# INST_DEBS="q4os-thunderbird"
-PK_VERS="3.2-a1"
+# INST_DEBS="thunderbird-extq"
+PK_VERS="1.1-a1"
 Q4VER_MIN="4.0"
 # Q4VER_MAX="6.9999"
 # DSTR_BASE="debian;ubuntu"

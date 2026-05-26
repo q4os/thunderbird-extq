@@ -11,7 +11,7 @@
 
 override_dh_install:
 	dh_install
-	mkdir debian/q4os-thunderbird
+	mkdir debian/thunderbird-extq
 	dh_modify_debdir
 
 override_dh_builddeb:
