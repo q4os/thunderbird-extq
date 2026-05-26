@@ -1,0 +1,19 @@
+Source: q4os-thunderbird
+Section: none
+Priority: optional
+Maintainer: Q4OS Team <devteam@q4os.org>
+Build-Depends: debhelper (>= 9~), q4os-devpack-base
+Standards-Version: 3.8.4
+
+#'desktop-file-utils' needed for 'open containing folder' and mime associations
+
+Package: q4os-thunderbird
+Architecture: all
+Pre-Depends: thunderbird
+Depends:
+Recommends: desktop-file-utils, gtk2-engines
+Conflicts: thunderbird-q4
+Provides:
+Replaces:
+Breaks:
+Description: Mozilla Thunderbird metapackage

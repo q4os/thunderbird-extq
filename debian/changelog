@@ -1,0 +1,6 @@
+q4os-thunderbird (3.2-a1) UNRELEASED; urgency=medium
+
+  * Initial commit
+  * Adopt build configuration to the newer devpack version
+
+ -- Q4OS Team <devteam@q4os.org>  Tue, 26 May 2026 20:23:21 +0200
